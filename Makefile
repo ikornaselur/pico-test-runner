@@ -1,15 +1,10 @@
 mypy:
-	@poetry run mypy src/pico_test_runner/* tests/*
+	@poetry run mypy src/pico_test_runner/*
 
 flake8:
-	@poetry run flake8 src/pico_test_runner/* tests/*
+	@poetry run flake8 src/pico_test_runner/*
 
 lint: mypy flake8
-
-test: unit_test
-
-unit_test:
-	@poetry run pytest tests/unit -xvvs
 
 shell:
 	@poetry run ipython

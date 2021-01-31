@@ -143,6 +143,8 @@ class Pico:
         ret, error = self._follow(timeout)
 
         if error:
+            print(ret.decode("utf-8"))
+            print(error.decode("utf-8"))
             raise PicoException("exception", ret, error)
 
         self._exit_raw_repl()

@@ -12,18 +12,16 @@ pyserial = "^3.5"
 [tool.poetry.dev-dependencies]
 isort = "^5.7.0"
 black = "^20.8b1"
-mypy = "^0.800"
 flake8 = "^3.8.4"
 flake8-builtins = "^1.5.3"
 flake8-isort = "^4.0.0"
 flake8-bugbear = "^20.11.1"
 flake8-black = "^0.2.1"
 flake8-comprehensions = "^3.3.1"
-flake8-annotations = "^2.5.0"
 ipdb = "^0.13.4"
 pdbpp = "^0.10.2"
-pytest = "^6.2.2"
-pytest-clarity = "^0.3.0-alpha.0"
+jedi = "0.17.2"
+mypy = "^0.800"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
