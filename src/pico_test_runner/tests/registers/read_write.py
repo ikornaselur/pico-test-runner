@@ -42,7 +42,7 @@ PINS = [
 # Enable converters pin
 OE = Pin(28, Pin.OUT, Pin.PULL_DOWN)
 
-TICK_WAIT_MS = 1000
+TICK_WAIT_MS = 250
 
 
 def run():
